@@ -7,6 +7,9 @@ use criterion::criterion_main;
 mod my_threadpool_benchmark;
 mod rayon_benchmark;
 mod io_threadpool_benchmark;
+//  add steal work benchmark
+mod work_stealing_benchmark;
+use work_stealing_benchmark::benchmark_work_stealing;
 
 // 2. 从模块中导入 benchmark 函数
 use my_threadpool_benchmark::benchmark_my_pool;
@@ -19,7 +22,8 @@ criterion_group!(
     benchmark_my_pool,
     benchmark_std_threadpool,
     benchmark_rayon_scope,
-    benchmark_rayon_par_iter
+    benchmark_rayon_par_iter,
+    benchmark_work_stealing,
 );
 
 // 4. 指定 main 函数入口
