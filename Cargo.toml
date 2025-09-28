@@ -1,7 +1,13 @@
 [package]
 name = "thread_pool"
-version = "0.1.0"
+version = "0.0.1"
+authors = ["jackie <jackieismpc@gmail.com>"] 
 edition = "2024"
+description ="A high-performance, low-latency thread pool"
+license = "MIT"
+repository = "https://github.com/iwanttoeattangyuan/thread_pool.git"
+readme = "README.md"
+keywords = ["threadpool", "concurrency", "parallel"]
 
 [dependencies]
 crossbeam-deque = "0.8.6"
