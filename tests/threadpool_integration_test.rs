@@ -1,4 +1,4 @@
-use thread_pool::ThreadPool;
+use hyper_thread_pool::ThreadPool;
 use std::panic;
 use std::time::Duration;
 

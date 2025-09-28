@@ -1,5 +1,5 @@
 [package]
-name = "thread_pool"
+name = "hyper-thread-pool"
 version = "0.0.1"
 authors = ["jackie <jackieismpc@gmail.com>"] 
 edition = "2024"
