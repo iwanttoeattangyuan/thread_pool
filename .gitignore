@@ -7,7 +7,7 @@
 # IDE / 编辑器配置
 .vscode/
 .idea/
-
+/Cargo.lock
 # macOS 系统文件
 .DS_Store
 
