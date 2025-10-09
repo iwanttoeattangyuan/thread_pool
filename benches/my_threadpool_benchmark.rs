@@ -1,7 +1,7 @@
 // benches/my_pool_benchmark.rs
 
 use criterion::{black_box, Criterion};
-use thread_pool::ThreadPool; // 导入你自己的库
+use hyper_thread_pool::ThreadPool; // 导入库
 use std::sync::mpsc;
 
 fn fibonacci(n: u64) -> u64 {

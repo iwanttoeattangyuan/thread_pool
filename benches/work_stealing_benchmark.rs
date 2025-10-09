@@ -1,7 +1,7 @@
 // benches/work_stealing_benchmark.rs
 
 use criterion::{black_box, Criterion};
-use thread_pool::ThreadPool;
+use hyper_thread_pool::ThreadPool;
 use std::sync::mpsc;
 use rayon::prelude::*; // 修正 #1: 导入 Rayon prelude
 
